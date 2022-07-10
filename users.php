@@ -17,6 +17,11 @@
             <td><?php echo"$row[username]"; ?> </td>
             <td><?php echo"$row[password]"; ?> </td>
             <td><?php echo"$row[email]"; ?> </td>
+            <td>
+                <a href="#" class="btn btn-danger"> Delete </a>
+                <a href="#" class="btn btn-info"> Edit </a>
+    </td>
+
         </tr>
 
 <?php
