@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title> About us </title>
-    <link rel="stylesheet" href="./css/bootstrap.css"/>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
     <script src="./js/popper.js"></script>
     <script src="./js/bootstrap.js"></script>
 </head>
+
 <body>
     <?php
         include "./navbar.php";
-    ?>    
-    <h1> About us </h1>
-    <a href= "./index.php"> Home </a>
-
-
+    ?>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">            
+                <h1 class="text-center"> Register</h1>
+                <form action="reg_insert.php" method="POST">
+                    Username:
+                    <input type="text" name="username" class="form-control" />
+                    Password:
+                    <input type="text" name="password" class="form-control" />
+                    Email:
+                    <input type="text" name="email" class="form-control" />
+                    First Name:
+                    <input type="text" name="firstname" class="form-control" />
+                    Last Name:
+                    <input type="text" name="lastname" class="form-control" />
+                    Address:
+                    <textarea name="address" rows="5" class="form-control"></textarea>
+                    <div class="pt-2 d-grid">
+                        <input type="submit" value="Register" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>
