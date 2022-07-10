@@ -13,9 +13,10 @@
 <body>
     <?php
         include "./navbar.php";
-    ?>    
-    <h1> Contact </h1>
-    <a href= "./index.php"> Home </a>
+    ?>   
+         <div class="container">
+            <h1> Contact </h1>
+        </div>
 
 
 

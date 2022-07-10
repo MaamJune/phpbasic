@@ -12,7 +12,12 @@
 </head>
 <body>
     <?php
-        include "./navbar.php";
+            include "./navbar.php";
+    ?>
+    
+<div class="container">
+
+    <?php
 
         echo "<h1> Welcome to web design </h1>";
         echo "<h2> Today on php </h2>";
@@ -35,5 +40,7 @@
         echo "Link to:  ".WEB;
                 
     ?>
+
+</div>
 </body>
 </html>

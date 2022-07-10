@@ -15,7 +15,7 @@
         include "./navbar.php";
     ?>    
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
         <div class="col-md-4">
         <h1> log in </h1>
         <form action= "check.php" method="POST">
